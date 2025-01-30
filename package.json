@@ -1,0 +1,24 @@
+{
+  "name": "lives-soutinhas",
+  "version": "1.0.0",
+  "description": "Monorepo pra reusar códigos entre as lives",
+  "main": "index.js",
+  "workspaces": [
+    "_libs/*",
+    "_apps/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsoutinho/lives-soutinhas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsoutinho/lives-soutinhas/issues"
+  },
+  "homepage": "https://github.com/devsoutinho/lives-soutinhas#readme"
+}
