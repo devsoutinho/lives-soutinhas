@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "marked": "^15.0.6"
+    "marked": "^15.0.6",
+    "sanitize-html": "^2.14.0"
   }
 }

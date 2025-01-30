@@ -9,7 +9,7 @@ export default function Screen() {
   const exemploDeTituloViaCMSMarkdown = `
     Hello **world**!
 
-    <img src="https://github.com/omariosouto.png" onload="console.log('alo alo hacked!')" />
+    <img src="https://github.com/omariosouto.png" onload="alert('Você pegou virus!')" />
   `;
 
   return (
