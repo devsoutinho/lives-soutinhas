@@ -8,23 +8,16 @@ export default function Screen() {
 
   const exemploDeTituloViaCMSMarkdown = `
     Hello **world**!
-  `;
 
-  const injectionCode = `
-    <script>
-      console.log("Seu site foi hackeado!!! hahahahahah");
-    </script>
-  `; 
+    <img src="https://github.com/omariosouto.png" onload="console.log('alo alo hacked!')" />
+  `;
 
   return (
     <div>
       <Text markdown>{exemploDeTituloViaCMSMarkdown}</Text>
-      {/* <Text>{exemploDeTituloViaCMSMarkdown}</Text> */}
-      {/* <Text>{exemploDeTituloViaCMSHTML}</Text> */}
       <button>
         oi
       </button>
-      {injectionCode}
     </div>
   );
 }
